@@ -1,11 +1,14 @@
-# Local environment and credentials
+node_modules/
+.svelte-kit/
+.vercel/
+.output/
+build/
+coverage/
 .env
 .env.*
 !.env.example
 !.env.*.example
 .envrc
-
-# Editor and operating-system files
 .idea/
 .vscode/
 *.swp
@@ -13,6 +16,5 @@
 *~
 .DS_Store
 Thumbs.db
-
-# Runtime logs
 *.log
+vite.config.*.timestamp-*

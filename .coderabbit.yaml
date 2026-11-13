@@ -1,0 +1,39 @@
+language: en-US
+early_access: false
+reviews:
+  profile: chill
+  request_changes_workflow: false
+  high_level_summary: false
+  poem: false
+  suggested_labels: false
+  auto_apply_labels: false
+  suggested_reviewers: false
+  auto_assign_reviewers: false
+  disable_cache: false
+  abort_on_close: true
+  path_filters:
+    - '!bun.lock'
+    - '!convex/_generated/**'
+    - '!src/lib/components/ui/**'
+    - '!.svelte-kit/**'
+    - '!.vercel/**'
+    - '!build/**'
+  auto_review:
+    enabled: false
+    auto_incremental_review: false
+    description_keyword: ''
+    labels: []
+    drafts: false
+  finishing_touches:
+    unit_tests:
+      enabled: false
+    simplify:
+      enabled: false
+    autofix:
+      enabled: false
+    fix_ci:
+      enabled: false
+    resolve_merge_conflict:
+      enabled: false
+chat:
+  auto_reply: false
